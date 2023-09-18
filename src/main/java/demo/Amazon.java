@@ -9,7 +9,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import java.util.concurrent.TimeUnit;
 
 public class Amazon {
-    private WebDriver driver; // Declare WebDriver as an instance variable
+    public WebDriver driver; // Declare WebDriver as an instance variable
 
     public Amazon() {
         System.setProperty("webdriver.edge.driver", "C:\\Users\\Admin\\Documents\\Projects\\edgedriver_win64\\msedgedriver.exe");
