@@ -79,31 +79,6 @@ public class Frames {
         WebElement bottomFrame = driver.findElement(By.tagName("body"));
         System.out.println("Text in left frame: " + bottomFrame.getText());
 
-        //driver.close();
-
-
-  
-        //   // Switch to the left frame
-        //   driver.switchTo().frame("frame-left");
-  
-        //   // Find the element in the left frame and print its text
-        //   WebElement leftFrameElement = driver.findElement(By.tagName("body"));
-        //   System.out.println("Text in left frame: " + leftFrameElement.getText());
-  
-        
-  
-        //   // Switch to the right frame
-        //   driver.switchTo().frame("frame-right");
-  
-        //   // Find the element in the right frame and print its text
-        //   WebElement rightFrameElement = driver.findElement(By.tagName("body"));
-        //   System.out.println("Text in right frame: " + rightFrameElement.getText());
-  
-        //   // Switch back to the default content (outside of frames)
-        //   driver.switchTo().defaultContent();
-  
-        //   // Find the element in the bottom frame and print its text
-        //   WebElement bottomFrameElement = driver.findElement(By.tagName("body"));
-        //   System.out.println("Text in bottom frame: " + bottomFrameElement.getText());
+    
      }
 }
