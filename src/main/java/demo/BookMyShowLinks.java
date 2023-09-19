@@ -23,7 +23,6 @@ public class BookMyShowLinks {
 
     public void endTest() {
         System.out.println("End Test2: BookMyShowLinks");
-        driver.close();
         driver.quit();
     }
     
@@ -39,5 +38,6 @@ public class BookMyShowLinks {
          // Count and print the number of hyperlinks
          int linkCount = allLinks.size();
          System.out.println("Total number of hyperlinks on the webpage: " + linkCount);
+         
     }
 }

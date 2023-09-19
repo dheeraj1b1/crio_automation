@@ -55,5 +55,7 @@ public class Amazon {
          System.out.println("The search results do not contain 'amazon.in' or 'amazon.com'. Test failed.");
      }
 
+     driver.close();
+
 }
 }

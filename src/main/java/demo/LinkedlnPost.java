@@ -29,7 +29,6 @@ public class LinkedlnPost {
 
     public void endTest() {
         System.out.println("End Test3: LinkedlnPost");
-        driver.close();
         driver.quit();
     }
 
@@ -93,6 +92,8 @@ public class LinkedlnPost {
         } else {
             System.out.println("the post was not shared with with connections only. Test not Passed!!!!");
         }
+
+        
     }
     }
 

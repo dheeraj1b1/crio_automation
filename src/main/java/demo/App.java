@@ -22,9 +22,13 @@ public class App {
             //bookMyShowLinks.testCase2();
             //bookMyShowLinks.endTest();
 
-            LinkedlnPost linkedlnPost = new LinkedlnPost();
-            linkedlnPost.testCase3();
-            linkedlnPost.endTest();
+            // LinkedlnPost linkedlnPost = new LinkedlnPost();
+            // linkedlnPost.testCase3();
+            // linkedlnPost.endTest();
+
+            Frames frames = new Frames();
+            frames.testCase5();
+            frames.endTest();
 
     }
 
