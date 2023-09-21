@@ -22,11 +22,12 @@ repositories {
 dependencies {
        testImplementation group: 'junit', name: 'junit', version: '4.12'
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.12.1'
+     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-1'
+     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-support', version: '4.0.0-alpha-1'
      // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-ie-driver
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-ie-driver', version: '4.12.1'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-ie-driver', version: '4.0.0-alpha-1'
  
-
 }
 
 //task startScript(type:Exec) {

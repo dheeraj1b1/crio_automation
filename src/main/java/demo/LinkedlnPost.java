@@ -75,7 +75,7 @@ public class LinkedlnPost {
          driver.findElement(By.xpath("//button[starts-with(@class, 'share-box-footer')]")).click();
         Thread.sleep(500);
          //start writing on the space
-         driver.findElement(By.xpath("//div[starts-with(@class,'ql-editor')]")).sendKeys("a post two");
+         driver.findElement(By.xpath("//div[starts-with(@class,'ql-editor')]")).sendKeys("a post new");
         Thread.sleep(2000);
          //CLICK on post btn 
          WebElement postBtn= driver.findElement(By.xpath("//button[starts-with(@class , 'share-actions__primary-action')]"));

@@ -66,10 +66,10 @@ public class Frames {
         WebElement rightFrame = driver.findElement(By.tagName("body"));
         System.out.println("Text in left frame: " + rightFrame.getText());
 
-        // Switch back to the top frame
-          driver.switchTo().parentFrame();
+        // // Switch back to the top frame
+        //   driver.switchTo().parentFrame();
         
-        // Switch back to the top frame
+        // Switch back to the frame
         driver.switchTo().defaultContent();
 
         // Switch to the bottom frame

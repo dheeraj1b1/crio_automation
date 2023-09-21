@@ -18,17 +18,26 @@ public class App {
             //amazon.endTest();
 
         //tests.endTest(); // End your test by clearning connections and closing browser
-            //BookMyShowLinks bookMyShowLinks = new BookMyShowLinks();
-            //bookMyShowLinks.testCase2();
-            //bookMyShowLinks.endTest();
+            //BookMyShowLinksCnt bookMyShowLinksCnt = new BookMyShowLinks();
+            //bookMyShowLinksCnt.testCase2();
+            //bookMyShowLinksCnt.endTest();
 
             // LinkedlnPost linkedlnPost = new LinkedlnPost();
-            // linkedlnPost.testCase3();
-            // linkedlnPost.endTest();
+            //  linkedlnPost.testCase3();
+            //  linkedlnPost.endTest();
 
-            Frames frames = new Frames();
-            frames.testCase5();
-            frames.endTest();
+            // Frames frames = new Frames();
+            // frames.testCase5();
+            // frames.endTest();
+
+           //LinkedlnImage linkedlnImage = new LinkedlnImage();
+            //linkedlnImage.testCase6();
+            //linkedlnImage.endTest();
+
+            BookMyShow bookMyShow = new BookMyShow();
+            bookMyShow.testCase2();
+            bookMyShow.endTest();
+
 
     }
 
