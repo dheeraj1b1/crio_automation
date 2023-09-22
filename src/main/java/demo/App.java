@@ -34,9 +34,17 @@ public class App {
             //linkedlnImage.testCase6();
             //linkedlnImage.endTest();
 
-            BookMyShow bookMyShow = new BookMyShow();
-            bookMyShow.testCase2();
-            bookMyShow.endTest();
+            // BookMyShow bookMyShow = new BookMyShow();
+            // bookMyShow.testCase2();
+            // bookMyShow.endTest();
+
+            // ImdbRating imdbRating = new ImdbRating();
+            // imdbRating.testCase7();
+            // imdbRating.endTest();
+
+            windowHandle wHandle = new windowHandle();
+            wHandle.testCase8();
+            wHandle.endTest();
 
 
     }
